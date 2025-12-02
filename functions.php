@@ -130,5 +130,5 @@ add_action( 'phpmailer_init', function( $phpmailer ) {
     $phpmailer->SMTPAuth   = WP_MAIL_SMTP_AUTH;
     $phpmailer->IsSMTP();
 });
-
+//最後
 ?>
